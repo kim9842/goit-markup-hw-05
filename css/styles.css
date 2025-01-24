@@ -463,8 +463,6 @@ header .container{
 }
 .sub-form{
     display: flex;
-}
-.sub-label{
     gap: 24px;
 }
 .sub-input {
@@ -472,7 +470,7 @@ header .container{
     height: 40px;
     border: 1px solid #ffffff;
     background-color: transparent;
-    font-size: 12;
+    font-size: 12px;
     line-height: 2;
     letter-spacing: 0.04em;
     padding-left: 16px;
