@@ -577,7 +577,7 @@ header .container{
     margin-bottom: 24px;
 }
 .checkbox {
-    visibility: hidden;
+    visibility: hidden;  ///modal__checkbox
 }
 .modal-checkbox-user {
     font-size: 12px;
@@ -585,7 +585,7 @@ header .container{
     letter-spacing: 0.04em;
     color: #8e8f99;
 }
-.accept{
+.accept{   ////////modal__checkbox-label
     width: 16px;
     height: 16px;
     border: 1px solid rgba(46, 47, 66, 0.4); 
@@ -598,6 +598,7 @@ header .container{
 }
 .accept-icon{
     
+
 }
 .checkbox-policy-link {
     line-height: 1.33333;
