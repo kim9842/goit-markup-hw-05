@@ -579,13 +579,11 @@ header .container{
 .modal-wrapper-checkbox {
     margin-bottom: 24px;
 }
-.checkbox {
-   
-}
+
 .checkbox:checked + .modal-checkbox-user .accept {
     background-color: #404BBF;
-    border: none;
-    fill: #FFFFFF;
+    fill: #F4F4FD;
+    border:none;
 }
 .checkbox:focus + .modal-checkbox-user .accept {
     border:1px solid #404BBF;
