@@ -478,6 +478,9 @@ header .container{
     border-radius: 4px; 
     color: #FFFFFF;
 }
+.sub-input::placeholder{
+    color: #FFFFFF;
+}
 .subscribe-input::placeholder {
     color: #ffffff;
 }
@@ -497,12 +500,14 @@ header .container{
     background-color: #4D5AE5;
     border: none;
     border-radius: 4px; 
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.sub-btn:hover{
+    background-color:#404BBF;
 }
 .sub-icon {
     margin-left: 16px;
-
 }
-
 
 /* modal!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
 
@@ -638,11 +643,12 @@ header .container{
 
 .checkbox:checked + .modal-checkbox-user .accept {
     background-color:#404BBF;
-    border: none;
+    border:none;
     fill: #F4F4FD;
 }
 .checkbox:focus + .modal-checkbox-user .accept {
     border:1px solid #404BBF;
+    border: none;
 }
 
 .modal-checkbox-user {
