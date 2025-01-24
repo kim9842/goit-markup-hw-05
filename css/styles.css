@@ -391,6 +391,7 @@ header .container{
 .footer .container{
     display: flex;
     align-items: baseline;
+    justify-content: space-between;
 }  
 .footer-info{
     margin-right:120px;
@@ -451,8 +452,66 @@ header .container{
     letter-spacing: 0.02em;
     color: #F4F4FD;
 }
+                       /* subscribe */
+.sub-text {
+    margin-bottom: 16px;
+    font-weight: 500;
+    font-size: 16;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+.sub-form{
+    display: flex;
+}
+.sub-label{
+    gap: 24px;
+}
+.sub-input {
+    width: 264px;
+    height: 40px;
+    border: 1px solid #ffffff;
+    background-color: transparent;
+    font-size: 12;
+    line-height: 2;
+    letter-spacing: 0.04em;
+    padding-left: 16px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px; 
+    color: #FFFFFF;
+}
+.subscribe-input::placeholder {
+    color: #ffffff;
+}
+.sub-btn {
+    min-width: 165px;
+    height: 40;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Roboto", sans-serif ;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    cursor: pointer;
+    background-color: #4D5AE5;
+    border: none;
+    border-radius: 4px; 
+}
+.sub-icon {
+    margin-left: 16px;
+    fill: #E7E9FC;
 
-/* modal*/
+
+}
+
+
+
+
+/* modal!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+
 .backdrop{
     position: fixed;
     top: 0;
